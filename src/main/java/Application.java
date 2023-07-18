@@ -1,3 +1,5 @@
+
+
 public class Application {
     /**
      * This class contains a main method that allows you to manually test the CustomException lab.
@@ -5,6 +7,7 @@ public class Application {
      * All implementation code should be written in the Lab class.
      *
      * The Lab.mustThrow method should throw the CustomException class.
+     * @throws FileNotFoundException
      */
     public static void main(String[] args) throws CustomException{
         Lab thrower = new Lab();
